@@ -1,0 +1,69 @@
+body{
+    font-family: 'Harlow Solid Italic', sans-serif;
+    background: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-simple-and-elegant-pale-powder-banner-background-pinkstraight-linewhitesimple-image_80912.jpg");
+    padding:0px 0;
+}
+.wrapper{
+    width:700px;
+    min-width: 700px;
+    min-height: 700px;
+    border: 10px solid #fadadd;
+    margin:0 auto;
+    background: #fadadd;
+    font-family: 'Harlow Solid Italic', sans-serif;
+    font-size: 15px;
+    color: darkslategray;
+}
+.header{
+    display:flex;
+    height: 150px;
+}
+.info{
+    display:flex;
+    width: 80%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    background: url("https://avatanplus.com/files/resources/original/57657c09e5711155646c86d4.jpg") no-repeat center center / cover;
+    color: darkslategray;
+    opacity: 0.75;
+    margin-right: 10px;
+}
+.pic{
+    display:flex;
+    width:20%;
+    height:100%;
+    background: url("https://i.pinimg.com/originals/10/7f/c4/107fc4c47603ce5d196bf58a47d30587.jpg") no-repeat center center / cover;
+}
+.nav ul{
+    display: flex;
+    background: #fdd3ff;
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+.nav li ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+    list-style-type: none;
+}
+.nav li:hover >ul{
+    display:block;
+}
+.nav li a{
+    margin: auto;
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+    color: darkslategray;
+    font-width: bold;
+    border-right: 1px solid #c9a0dc;
+}
+.nav li a:hover{
+    background: #f0c6ff;
+}
+.content{
+    text-align: center;
+    width:100%;
+}

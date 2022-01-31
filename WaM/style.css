@@ -1,0 +1,46 @@
+.title h1 {
+    padding: 10px 0 10px 0 ;
+}
+.title{
+    color: darkslategray;
+    font-width: bold;
+    font-size:  10px;
+    text-align: center;
+}
+.play{
+    color: darkslategray;
+    font-width: bold;
+    display: flex;
+    width:90%;
+    align-items: center;
+    padding: 10px 0 0 200px;
+}
+.btn{
+    text-align: right;
+    width:30%;
+}
+.btnStart{
+    padding:10px 30px;
+    background-color: plum;
+    color:beige;
+}
+.score{
+    width: 30%;
+    font-size: 20px;
+    text-align: left;
+}
+.placeOfHoles{
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-gap: 30px;
+    padding: 10px 0 0 200px;
+    align-items: center;
+    margin-top: 20px;
+}
+.hole{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: plum;
+    border-radius: 20%;
+}

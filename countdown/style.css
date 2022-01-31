@@ -1,0 +1,21 @@
+.countdown{
+    font-size: 30px;
+    color: plum;
+    display: flex;
+    width: 700px;
+    align-items: center;
+    padding: 10px 0 0 290px;
+}
+.btnSec{
+    padding-top: 10px;
+    height: 50px;
+    display:block;
+    position: relative;
+    margin:0 auto;
+    text-align: center;
+}
+.btnStart{
+    padding:10px 30px;
+    background-color: plum;
+    color:beige;
+}

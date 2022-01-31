@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>chat</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="info">
+            <h1 >Тут могла быть Ваша реклама.<br> Но здесь буду я!</h1>
+        </div>
+        <div class="pic"> </div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="../index.html">Что это</a></li>
+            <li><a href="chat.html">Чат</a></li>
+            <li><a href="../artStation/artStation.html">Галерея</a></li>
+            <li><a href="">Разное</a>
+                <ul>
+                    <li><a href="../WaM/WaM.html">Ударь Крота</a></li>
+                    <li><a href="../pilots/broPilots.html">Братья Пилоты</a></li>
+                    <li><a href="../countdown/countdown.html">Обратный отсчёт</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="msg-header">
+                <div class="msg-header-img">
+                    <img src="u2.jpg" width="100%" height="100%">
+                </div>
+                <div class="active">
+                    <h4>Вася</h4>
+                    <h6>был недавно</h6>
+                </div>
+            </div>
+            <div class="chat-page">
+                <div class="msg-inbox">
+
+                    <div class="received-msg">
+                        <div class="received-msg-inbox">
+                            <p>Почему чат удлиняется снизу...</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <template id = "msg-template">
+                <div class="outgoing-chats-msg">
+                    <div >help</div>
+                </div>
+            </template>
+
+            <div class="msg-bottom">
+                <div class="input-area">
+                    <textarea class="msg-send" cols="100" rows="2"></textarea>
+                </div>
+                <button id="passBtn" type="button" onclick="OnClick()">Enter</button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
